@@ -9,4 +9,7 @@ Instale a lib sqlit3
 
 Instale a lib PyQt5
 
+Instale a lib sendgrid
+'pip install sendgrip
+
 Execute o main.py
