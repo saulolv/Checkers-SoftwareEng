@@ -5,7 +5,7 @@ Tenha uma versão de Python instalado em seu computador, preferencialmente atual
 Instale o pygame
 https://www.pygame.org/wiki/GettingStarted
 
-IO jogo usa pygame, PyQt5 para criação de telas e Sendgrid para enviar emails
+O jogo usa pygame, PyQt5 para criação de telas e Sendgrid para enviar emails
 
 Instale a lib PyQt5 
   `pip install PyQt5`
