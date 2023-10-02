@@ -16,5 +16,5 @@ GREY = (128, 128, 128)
 GREY31 = (79, 79, 79)
 NAVY = (0, 0, 128)
 
-CROWN = pygame.transform.scale(pygame.image.load('assets/crown.png'), (44, 25))
-MENU1_PIC = pygame.transform.scale(pygame.image.load('assets/menu1pic.png'), (WIDTH, HEIGHT))
+CROWN = pygame.transform.scale(pygame.image.load('src/assets/crown.png'), (44, 25))
+MENU1_PIC = pygame.transform.scale(pygame.image.load('src/assets/menu1pic.png'), (WIDTH, HEIGHT))

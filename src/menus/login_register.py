@@ -10,13 +10,13 @@ pygame.display.set_mode((1,1))
 
 app = QtWidgets.QApplication([])
 
-login_screen = uic.loadUi("assets/login_screen.ui")
-register_screen = uic.loadUi("assets/register_screen.ui")
-recover_screen = uic.loadUi("assets/recpass_screen.ui")
-code_screen = uic.loadUi("assets/code_screen.ui")
-newpass_screen = uic.loadUi("assets/chargepass_screen.ui")
+login_screen = uic.loadUi("src/assets/login_screen.ui")
+register_screen = uic.loadUi("src/assets/register_screen.ui")
+recover_screen = uic.loadUi("src/assets/recpass_screen.ui")
+code_screen = uic.loadUi("src/assets/code_screen.ui")
+newpass_screen = uic.loadUi("src/assets/chargepass_screen.ui")
 
-user = User("assets/database.db")
+user = User("src/assets/database.db")
 
 def run_login(): 
     login_screen.pushButton.clicked.connect(login)
